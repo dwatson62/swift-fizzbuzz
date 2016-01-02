@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="vxF-hm-17J">
             <objects>
-                <viewController id="bbB-6A-0q7" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="bbB-6A-0q7" customClass="ViewController" customModule="FizzBuzz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iSC-31-hZa"/>
                         <viewControllerLayoutGuide type="bottom" id="8bH-O3-Nd9"/>

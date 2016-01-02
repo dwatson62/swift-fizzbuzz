@@ -17,6 +17,7 @@
 		A844D1551C333734002414E6 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844D1541C333734002414E6 /* Brain.swift */; };
 		A844D1571C333D93002414E6 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844D1561C333D93002414E6 /* GameTests.swift */; };
 		A844D1591C333DC4002414E6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844D1581C333DC4002414E6 /* Game.swift */; };
+		A88410941C38066900344456 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88410931C38066900344456 /* ViewControllerUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A844D1541C333734002414E6 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		A844D1561C333D93002414E6 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		A844D1581C333DC4002414E6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A88410931C38066900344456 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerUnitTests.swift; path = ../FizzBuzz/ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				A844D13B1C3335CA002414E6 /* Info.plist */,
 				A844D1521C33364C002414E6 /* BrainTests.swift */,
+				A88410931C38066900344456 /* ViewControllerUnitTests.swift */,
 				A844D1561C333D93002414E6 /* GameTests.swift */,
 			);
 			path = FizzBuzzTests;
@@ -278,6 +281,7 @@
 			files = (
 				A844D1531C33364C002414E6 /* BrainTests.swift in Sources */,
 				A844D1571C333D93002414E6 /* GameTests.swift in Sources */,
+				A88410941C38066900344456 /* ViewControllerUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,7 @@
 				A844D14B1C3335CA002414E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A844D14C1C3335CA002414E6 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				A844D14E1C3335CA002414E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A844D14F1C3335CA002414E6 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				A844D1511C3335CA002414E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
