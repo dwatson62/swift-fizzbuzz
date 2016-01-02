@@ -109,5 +109,16 @@ class ViewControllerUITests: XCTestCase {
     let newScore = numberButton.label
     XCTAssertEqual(newScore, "15")
   }
+  
+  func testWrongAnswerResetsScore() {
+    let app = XCUIApplication()
+    let numberButton = app.buttons["numberButton"]
+    let fizzbuzzButton = app.buttons["fizzBuzzButton"]
+    
+    fizzbuzzButton.tap()
+    XCUIApplication().alerts["Incorrect"].collectionViews.buttons["Okay"].tap()
+    let newScore = numberButton.label
+    XCTAssertEqual(newScore, "0")
+  }
 
 }

@@ -62,11 +62,11 @@ class ViewControllerUnitTests: XCTestCase {
     XCTAssertEqual(newScore, 15)
   }
   
-  func testIncorrectMoveDoesNotIncrementScore() {
+  func testIncorrectMoveResetsScore() {
     viewController.game?.score = 2
     viewController.play(Move.Number)
     let newScore = viewController.gameScore
-    XCTAssertEqual(newScore, 2)
+    XCTAssertEqual(newScore, 0)
   }
   
   func testHasAGame() {

@@ -53,6 +53,21 @@ class ViewController: UIViewController {
     }
     let response = unwrappedGame.play(move)
     gameScore = response.score
+    if response.right == false {
+      showIncorrectAlert()
+      resetGame(unwrappedGame)
+    }
+  }
+  
+  func showIncorrectAlert() {
+    let alert = UIAlertController(title: "Incorrect", message: "That was the wrong answer.", preferredStyle: .Alert)
+    alert.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.Default, handler: nil))
+    self.presentViewController(alert, animated: true, completion: nil)
+  }
+  
+  func resetGame(unwrappedGame: Game) {
+    gameScore = 0
+    unwrappedGame.score = 0
   }
 
   @IBAction func buttonTapped(sender: UIButton) {
